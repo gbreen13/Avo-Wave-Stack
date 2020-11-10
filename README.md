@@ -1,4 +1,5 @@
-https://user-images.githubusercontent.com/6044221/98740828-aae3c180-2379-11eb-9e69-cf11cd1451aa.png
+<img width="1503" alt="Screen Shot 2020-11-10 at 5 13 46 PM" src="https://user-images.githubusercontent.com/6044221/98740828-aae3c180-2379-11eb-9e69-cf11cd1451aa.png">
+
 # Avo-Wave-Stack
 This is a Rapid Weaver/Stacks 4.0 compatible stack for generating moving horizontal ornamental waves in Web Sites created with Rapid Weaver
 using the YourHead Stacks 4.0 plugin.
