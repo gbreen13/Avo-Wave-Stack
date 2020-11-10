@@ -11,6 +11,8 @@ simply drag the AvoWave stack onto the page.   This stack has parameters for bac
 When the stack is added, one Wavelet is added as well.  You can add move wavelets to this canvas by hitting the + icon.
 
 ## Wave Parameters
+<img width="329" alt="Screen Shot 2020-11-10 at 5 35 56 PM" src="https://user-images.githubusercontent.com/6044221/98741765-3dd12b80-237b-11eb-96d8-30fe08f150b8.png">
+
 The parameters for the Wavelet allow random behavior of the wave.
 
 **Start Color and End Color**
