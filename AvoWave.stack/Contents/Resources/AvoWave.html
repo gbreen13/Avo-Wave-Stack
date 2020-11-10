@@ -1,0 +1,11 @@
+<!-- AvoWave.html  - main stack for Avo Wave.  allows sub AvoWavelet Stacks.-->
+%[if edit]%
+<p>
+<h3>This is the Avo Wave container that can contain 1 or more Avo Wavelets. </h3>
+<p> You can change the background color and frames per second of the rendering </p>
+%[endif]%
+<div id="AvoWaveCanvasContainer%id%" class= "AvoWave">
+<!-- AvoWave.html -->
+<canvas id="AvoWaveCanvas%id%" height=%id=WaveHeight% ></canvas>
+%slice -addTypes="com.RHS.AvoWavelet" -allowedTypes="com.RHS.AvoWavelet"%
+</div>

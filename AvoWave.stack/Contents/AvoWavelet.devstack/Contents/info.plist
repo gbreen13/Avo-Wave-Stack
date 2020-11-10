@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.RHS.AvoWavelet</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>title</key>
+	<string>Avo Wavelet</string>
+	<key>subtitle</key>
+	<string>individual wavelet part of AvoWave group</string>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>html</string>
+			<key>filename</key>
+			<string>AvoWavelet.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>js</string>
+			<key>filename</key>
+			<string>AvoWaveletEach.js</string>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>avoicon</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>group</key>
+			<string>Wave Controls</string>
+			<key>id</key>
+			<string>startColor</string>
+			<key>title</key>
+			<string>Wave Starting Color</string>
+			<key>type</key>
+			<string>color</string>
+			<key>default</key>
+			<string>rgba(255,0, 0,1)</string>
+			<key>allowsOpacity</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Wave Controls</string>
+			<key>id</key>
+			<string>endColor</string>
+			<key>title</key>
+			<string>Wave Ending Color</string>
+			<key>type</key>
+			<string>color</string>
+			<key>default</key>
+			<string>rgba(255,0, 0,0.1)</string>
+			<key>allowsOpacity</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>numPeaks</string>
+			<key>title</key>
+			<string>avg. # wave peaks</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<integer>4</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>32</integer>
+			<key>round</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>0.32</real>
+			<key>min</key>
+			<real>0.1</real>
+			<key>max</key>
+			<real>0.5</real>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>yHeightPercent</string>
+			<key>title</key>
+			<string>amp height</string>
+			<key>round</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>0.19</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>0.9</real>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>periodTurbulance</string>
+			<key>title</key>
+			<string>Period Turbulance</string>
+			<key>round</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>0.2</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>0.5</real>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>periodMidTurbulance</string>
+			<key>title</key>
+			<string>Mid Period Turbulance</string>
+			<key>round</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>0.5</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>0.9</real>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>ampTurbulance</string>
+			<key>title</key>
+			<string>Amp Turbluance</string>
+			<key>round</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<real>0.45</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>0.9</real>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>yStartTurbulance</string>
+			<key>title</key>
+			<string>Y Start Turbulance</string>
+			<key>round</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>5</integer>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>lineWidth</string>
+			<key>title</key>
+			<string>Line Width</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<integer>16</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>64</integer>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>numSteps</string>
+			<key>title</key>
+			<string>Number Steps</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>slider</string>
+			<key>default</key>
+			<integer>16</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>max</key>
+			<integer>64</integer>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>numEchos</string>
+			<key>title</key>
+			<string># echos</string>
+		</dict>
+	</array>
+	<key>RWAddonAuthor</key>
+	<string>Rabbit Hill Solutions, Inc.</string>
+	<key>inline</key>
+	<true/>
+	<key>hidden</key>
+	<true/>
+	<key>childOf</key>
+	<array>
+		<string>com.RHS.AvoWave</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>RHS.AvoWave</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>title</key>
+	<string>Avo Wave</string>
+	<key>subtitle</key>
+	<string>Create Avo style moving waves</string>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>html</string>
+			<key>filename</key>
+			<string>AvoWave.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>js</string>
+			<key>filename</key>
+			<string>avowaveeach.js</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>js</string>
+			<key>filename</key>
+			<string>avowavepage.js</string>
+			<key>scope</key>
+			<string>page</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>scss</string>
+			<key>filename</key>
+			<string>avowavepage.scss</string>
+			<key>scope</key>
+			<string>page</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>scss</string>
+			<key>filename</key>
+			<string>avowaveeach.scss</string>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>avoicon</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>AWbackgroundcolor</string>
+			<key>title</key>
+			<string>Background Color</string>
+			<key>type</key>
+			<string>color</string>
+			<key>default</key>
+			<string>rgba(255,255,255,1)</string>
+			<key>allowsOpacity</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Wave Frame Controls</string>
+			<key>id</key>
+			<string>AVFPS</string>
+			<key>title</key>
+			<string>Target Frames/Second</string>
+			<key>type</key>
+			<integer>24</integer>
+			<key>default</key>
+			<integer>24</integer>
+			<key>min</key>
+			<integer>15</integer>
+			<key>max</key>
+			<integer>30</integer>
+		</dict>
+	</array>
+	<key>RWAddonAuthor</key>
+	<string>Rabbit Hill Solutions, Inc.</string>
+</dict>
+</plist>
