@@ -27,7 +27,7 @@ real number from 0-.5 represents the nominal height and depth of a wave as a per
 **period turbulance**
 real number 0-.9 modifies thelocation of the wave periods
 
-**mid-period turbulance""
+**mid-period turbulance**
 similar to above for the half distance
 
 **amp turbulance**
