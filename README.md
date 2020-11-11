@@ -13,8 +13,9 @@ I use with Joe Workman's Foundation.  Doesn't seem to work otherwise.  I haven't
 ## Install
 download the folder, unzip and drag onto the Rapid Weaver icon.
 
-## to Install and Use
-simply drag the AvoWave stack onto the page.   This stack has parameters for background color and target frames/per second which tell teh animatino loop how frequently to run.
+## Use
+Drag the AvoWave stack onto the page.   This stack is a <canvas> container for drawing Wavelets.  This stack has parameters for background color and target frames/per second which tell the animatino loop how frequently to run.
+
 When the stack is added, one Wavelet is added as well.  You can add move wavelets to this canvas by hitting the + icon.
 
 ## Wave Parameters
