@@ -4,7 +4,14 @@
 This is a Rapid Weaver/Stacks 4.0 compatible stack for generating moving horizontal ornamental waves in Web Sites created with Rapid Weaver
 using the YourHead Stacks 4.0 plugin.
 
-To install into Rapid Weaver, drag the AvoWave.stack bundle into the Rapid Weaver icon.  It will be presented in the stacks list.
+## Requirements
+Mac
+Rapid Weaver ver 8 from RealMac Software
+Stacks 4 from YourHead
+I use with Joe Workman's Foundation.  Doesn't seem to work otherwise.  I haven't bothered to find out why.
+
+## Install
+download the folder, unzip and drag onto the Rapid Weaver icon.
 
 ## to Install and Use
 simply drag the AvoWave stack onto the page.   This stack has parameters for background color and target frames/per second which tell teh animatino loop how frequently to run.
